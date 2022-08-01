@@ -1,0 +1,35 @@
+---
+menu: Components
+name: RequestInviteForm
+---
+
+import { Playground, PropsTable } from 'docz';
+import Form from './Form';
+
+# RequestInviteForm
+
+The form presented to users
+
+```js
+import Button from '@clarityhub/unity-web/lib/components/Buttons';
+```
+
+## Form
+
+<Playground>
+    <Form subscribe={() => {}} />
+</Playground>
+
+
+## Success
+
+
+<Playground>
+    <Form subscribe={() => {}} status="success" />
+</Playground>
+
+## Failure
+
+<Playground>
+    <Form subscribe={() => {}} status="error" message="<p>Woah there</p" />
+</Playground>

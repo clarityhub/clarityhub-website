@@ -1,0 +1,20 @@
+{
+    "features": {
+        "aboutUs": false,
+        "apidocs": true,
+        "services": true,
+        "homepagev2": true
+    },
+    "config": {
+        "signup": {
+            "buttonText": "Request API Access",
+            "buttonSecondaryText": "Request API Access",
+            "description": "Start building engaging customer experiences!"
+        },
+        "signuppersato": {
+            "buttonText": "Get Early Access",
+            "buttonSecondaryText": "Get Early Access",
+            "description": "Get early access before we launch. We'll send you an invite via email."
+        }
+    }
+}
